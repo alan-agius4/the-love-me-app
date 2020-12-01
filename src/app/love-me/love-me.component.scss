@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  align-items: center;
+
+  &.vertical {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &.large {
+    .love-me-heart {
+      width: 100px;
+      height: 100px;
+
+      .love-me-heart-icon {
+        font-size: 100px;
+        width: inherit;
+        text-shadow: 1px 2px 6px #000000a3;
+      }
+    }
+
+    .love-me-count {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+  }
+}

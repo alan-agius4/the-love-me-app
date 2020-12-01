@@ -1,0 +1,11 @@
+<button mat-icon-button
+        (click)="like()"
+        class="love-me-heart"
+        aria-label="Example icon-button with heart icon">
+  <mat-icon [ngStyle]="heartStyle" class="love-me-heart-icon">favorite</mat-icon>
+</button>
+
+<div *ngIf="likes$ | async as likes" class="love-me-count">
+  <span *ngIf="likes.userLikes"> {{likes.userLikes}} / </span>
+  {{ likes.likes }}
+</div>
