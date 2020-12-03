@@ -1,5 +1,5 @@
 {
-  "name": "The Love Me App",
+  "name": "the-love-me-app",
   "version": "0.1.0",
   "scripts": {
     "build": "tsc",
