@@ -17,6 +17,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { AuthModule } from './auth/auth.module';
 import { UserComponent } from './user/user.component';
 import { AboutComponent } from './about/about.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutComponent } from './about/about.component';
     NavBarComponent,
     UserComponent,
     LoveMeComponent,
-    AboutComponent
+    AboutComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
